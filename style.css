@@ -9,7 +9,8 @@ body {
 }
 
 body a {
-    color: #ca6fff
+    color: #ca6fff;
+    cursor: url('/images/cursor-hover.png'), auto;
 }
 
 .logo {
@@ -30,6 +31,9 @@ body a {
     margin-right: 5px;
     width: 50px;
     height: 50px;
+}
+.logo:hover {
+    cursor: url('/images/cursor-hover.png'), auto;
 }
 
 /* Header Styles */
