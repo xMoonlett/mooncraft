@@ -1,4 +1,7 @@
 /* General Body Styles */
+html, body, * {
+    cursor: url('/images/cursor.png'), auto;
+}
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
