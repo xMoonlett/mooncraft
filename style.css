@@ -46,13 +46,7 @@ header p {
     position: relative;
     left: 50%;
     transform: translateX(-45%);
-    background: transparent linear-gradient(270deg, #D6CDEA, #D6CDEA, #BFE2F2, #BFE2F2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-transform: translateX(-45%);
-    -moz-transform: translateX(-45%);
-    -ms-transform: translateX(-45%);
-    -o-transform: translateX(-45%);
+    color: white;
 }
 header p:nth-of-type(1) {
     cursor: url('/images/cursor-hover.png'), auto;
