@@ -19,14 +19,10 @@ body a {
 
 .logo {
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    display: inline-block;
-    margin-right: 10px;
     font-size: 2.2em;
+    text-align: center;
     letter-spacing: 2px;
     font-weight: bold;
-    text-shadow: 0 2px 8px #222;
 }
 .logo img {
     width: 32px;
@@ -45,6 +41,19 @@ header {
     padding: 1rem 0;
     border-bottom: #BFE2F2 2px solid;
 }
+header p {
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-45%);
+    background: transparent linear-gradient(270deg, #D6CDEA, #D6CDEA, #BFE2F2, #BFE2F2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-transform: translateX(-45%);
+    -moz-transform: translateX(-45%);
+    -ms-transform: translateX(-45%);
+    -o-transform: translateX(-45%);
+}
 header p:nth-of-type(1) {
     cursor: url('/images/cursor-hover.png'), auto;
 }
@@ -53,51 +62,25 @@ header p:nth-of-type(2) {
 }
 header p {
     margin: 0;
-    display: inline-block;
-}
-.logo > p:nth-of-type(1) {
-  color: #D6CDEA;
-}
-.logo > p:nth-of-type(2) {
-  color: #BFE2F2;
-}
-header p:last-child {
-    display: block;
-    color: #fff;
-    cursor: url('/images/cursor.png'), auto;
 }
 
-.container a {
+.container a, header a {
     text-decoration: none;
-}
-
-.nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    color: black;
-    background: #ddd;
-}
-
-/* Navigation Bar Styles */
-nav ul {
-    padding: 0;
-    list-style: none;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    background: #a3a3a3a8;
+    padding: 5px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     font-weight: bold;
 }
 nav ul li a:hover {
-    color: #000000ad;
+    color: #ffffff9a;
 }
 
 /* Section Styles */
@@ -117,7 +100,6 @@ section {
 /* Footer Styles */
 footer {
     position: absolute;
-    bottom: 0;
     width: fit-content;
     left: 50%;
     transform: translateX(-50%);
@@ -134,4 +116,5 @@ footer {
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
+    margin-top: 25px;
 }
