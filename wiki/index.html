@@ -11,23 +11,28 @@
 
     <style>
         .wiki-sections {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-gap: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 10px;
             margin-top: 20px;
-            margin-bottom: 20px;
         }
 
         .wiki-item {
+            flex: 1 1 calc(33.333% - 10px);
             background-color: #ffffff2d;
+            border: #ffffff2d solid 1px;
             padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         .wiki-item h3 {
+            font-size: 1.2em;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
             text-align: center;
             margin-bottom: 10px;
+            text-decoration: underline;
         }
 
         .wiki-item p {
@@ -59,24 +64,39 @@
             <div class="wiki-sections">
                 <div class="wiki-item">
                     <h3><a href="#getting-started">Getting Started</a></h3>
-                    <p>Check out the Jobs and make some Money, Player Stats, and much more.</p>
+                    <p>Check out the Jobs (/jobs browse) and make some Money,<br>
+                    Sell/Buy from the Server Shop (/shop)<br>
+                    View your Stats (/mcstats)<br>
+                    and much more.</p>
                 </div>
                 <div class="wiki-item">
-                    <h3><a href="#Jobs">Jobs</a></h3>
-                    <p> Warning: Jobs are Limited to Older Blocks/Ores.<br>
-                        Cadet - Miner, Slayer Woodcutter.
+                    <h3><a href="#channels">Chat Channels</a></h3>
+                    <p>command: /channel [channel name]<br>
+                        - global<br>
+                        - local<br>
+                    </p>
+                    <h3><a href="#commands">Commands</a></h3>
+                    <p>/jobs /rtp /shop /spawn<br>
+                        /mcstats /fish /mailbox /claims</p>
+                </div>
+                <div class="wiki-item">
+                    <h3><a href="#features">Features</a></h3>
+                    <p> Pyrofishing<br>
+                        McMMO<br>
+                        Tool stats<br>
+                        Jobs<br>
+                        In-game Ranks (Working on them)<br>
+                        Player Trading/Auctions<br>
+                        Server Shop<br>
+                        Public Homes<br>
+                        Claims<br>
                     </p>
                 </div>
                 <div class="wiki-item">
-                    <h3><a href="#commands">Commands</a></h3>
-                    <p>/jobs /rewards /rtp /shop /spawn<br>
-                        /stats /fish /mailbox /pvp</p>
-                </div>
-                <div class="wiki-item">
-                    <h3><a href="#ranks">Ranks</a></h3>
-                    <p>In-game Ranks:<br>
-                        Cadet<br>
-                        (more to come)</p>
+                    <h3><a href="#ranks">In-game Ranks</a></h3>
+                    <p>
+                        Cadet (Rank I)<br>
+                        more coming</p>
                 </div>
                 <div class="wiki-item">
                     <h3><a href="#rules">Rules</a></h3>
