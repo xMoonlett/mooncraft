@@ -5,119 +5,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/mooncraft.png" type="image/x-icon" />
-    <title>MoonCraft Wiki</title>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"rel="stylesheet"/>
+    <title>Wiki - MoonCraft</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="/styles.css">
 
     <style>
-        .wiki-sections {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            gap: 10px;
-            margin-top: 20px;
-        }
-
-        .wiki-item {
-            flex: 1 1 calc(33.333% - 10px);
-            background-color: #ffffff2d;
-            border: #ffffff2d solid 1px;
-            padding: 20px;
-        }
-
-        .wiki-item h3 {
-            font-size: 1.2em;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            text-align: center;
-            margin-bottom: 10px;
-            text-decoration: underline;
-        }
-
-        .wiki-item p {
-            text-align: center;
-            margin-bottom: 0;
+        .content {
+            height: 74%;
         }
     </style>
 </head>
 
 <body>
-    <header>
-        <div class="header-logo-wrapper">
-            <a href="https://craft.moonlett.com/" class="logo">
-                <p>MoonCraft</p>
+    <div class="container">
+        <div class="sidebar">
+            <a href="https://craft.moonlett.com/" class="sidetitle">
+                <h2>MoonCraft</h2>
             </a>
-            <nav>
-                <ul>
-                    <li><a href="https://moonlett.com/">Moonlett</a></li>
-                    <li><a href="https://discord.moonlett.com/" class="discord">Discord</a></li>
-                </ul>
-            </nav>
+            <ul>
+                <li><a href="https://craft.moonlett.com/">Home</a></li>
+            </ul>
+            <ul>
+                <h3>[Socials]</h3>
+                <li><a href="https://discord.moonlett.com/">Discord</a></li>
+            </ul>
+            <ul>
+                <h3>[Other Links]</h3>
+                <li><a href="https://moonlett.com/">moonlett.com</a></li>
+            </ul>
+            <div class="sidefooter">
+                <p>Crated on 22/07/2025</p>
+            </div>
         </div>
-    </header>
 
-    <section id="wiki-home" class="section-content">
-        <div class="container">
-            <h2>MoonCraft Wiki</h2>
-            <p>Welcome to the MoonCraft Wiki! (Work in progress)</p>
-            <div class="wiki-sections">
-                <div class="wiki-item">
-                    <h3><a href="#getting-started">Getting Started</a></h3>
-                    <p>Check out the Jobs (/jobs browse) and make some Money,<br>
+        <div class="content-box">
+            <div class="content-title">
+                <h1>MoonCraft Wiki</h1>
+                <p>(Work in progress)</p>
+            </div>
+
+            <div class="content">
+                <h2>[Getting Started]</h2>
+                <p>
+                    Check out the Jobs (/jobs browse) and make some Money,<br>
                     Sell/Buy from the Server Shop (/shop)<br>
                     McMMO and GUI (/mcmmogui)<br>
                     Pyrofishing (/fish menu)<br>
-                    </p>
-                </div>
-                <div class="wiki-item">
-                    <h3><a href="#channels">Chat Channels</a></h3>
-                    <p>command: /channel [channel name]<br>
+                </p>
+
+                <hr>
+
+                <h2>[Chat Channels / Commands]</h2>
+                <p>
+                    /channel [channel name]<br>
                         - global<br>
                         - local<br>
-                    </p>
-                    <h3><a href="#commands">Commands</a></h3>
-                    <p> /jobs /rtp /warps<br>
-                        /mcmmogui /fish<br>
-                        /mailbox /claims /shop</p>
-                </div>
-                <div class="wiki-item">
-                    <h3><a href="#features">Features</a></h3>
-                    <p> Pyrofishing<br>
-                        McMMO<br>
-                        Tool stats<br>
-                        Jobs<br>
-                        In-game Ranks (Working on them)<br>
-                        Player Trading/Auctions<br>
-                        Server Shop<br>
-                        Public Homes<br>
-                        Claims<br>
-                        Disenchanting<br>
-                    </p>
-                </div>
-                <div class="wiki-item">
-                    <h3><a href="#ranks">In-game Ranks</a></h3>
-                    <p>
-                        Cadet (Rank I)<br>
-                        more coming</p>
-                </div>
-                <div class="wiki-item">
-                    <h3><a href="#rules">Rules</a></h3>
-                    <p>
+                </p>
+                <br>
+                <p> 
+                    /jobs - /rtp - /warps<br>
+                    /mcmmogui - /fish<br>
+                    /mailbox - /claims - /shop
+                </p>
+
+                <hr>
+
+                <h2>[Features]</h2>
+                <p> 
+                    Pyrofishing<br>
+                    McMMO<br>
+                    Tool stats<br>
+                    Jobs<br>
+                    In-game Ranks (Coming Soon)<br>
+                    Player Trading/Auctions<br>
+                    Server Shop<br>
+                    Public Homes<br>
+                    Claims<br>
+                    Disenchanting<br>
+                </p>
+
+                <hr>
+
+                <h2>[In-Game Ranks]</h2>
+                <p>
+                    (Work in progress)
+                </p>
+
+                <hr>
+
+                <h2>[Rules]</h2>
+                <p>
                     Respect Others.<br>
                     Report any Exploits/Bugs.<br>
                     Dont be Rude or say Slurs in chat
-                    </p>
-                </div>
+                </p>
             </div>
         </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p> <a href="https://craft.moonlett.com/">MoonCraft</a> | Crated on 22/07/2025 | <a href="https://moonlett.com/">Moonlett</a></p>
-        </div>
-    </footer>
+    </div>
 </body>
 
 </html>
