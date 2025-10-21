@@ -4,74 +4,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/mooncraft.png" type="image/x-icon" />
+    <link rel="icon" type="image/x-icon" href="../img/mooncraft.png">
+    <link rel="stylesheet" href="/css/style.css">
     <title>MoonCraft</title>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css">
+
+    <style>
+
+        * {
+            background-image: url(/img/spawn.png);
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            user-select: none;
+            -webkit-user-drag: none;
+        }
+
+        header {
+            background: #1c1c1c;
+        }
+        .hheader h1 {
+            margin: 0;
+            color: #d3d3ff;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-transition: none !important;
+            -moz-transition: none !important;
+            -o-transition: none !important;
+            transition: none !important;
+        }
+    
+        .hheader h1:hover {
+            color: #d3d3ff;
+            -webkit-transform: none !important;
+            -moz-transform: none !important;
+            -ms-transform: none !important;
+            -o-transform: none !important;
+            transform: none !important;
+            background: none !important;
+        }
+    
+        .homeimg {
+            width: 75px !important;
+            height: auto !important;
+            object-fit: contain;
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+            user-select: none;
+            -webkit-user-drag: none;
+            background: none !important;
+        }
+
+        .content {
+            text-align: center; 
+            margin-top: 25px;
+        }
+
+        footer {
+            background: #1c1c1c !important;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="sidebar">
-            <a href="https://craft.moonlett.com/" class="sidetitle">
-                <h2>MoonCraft</h2>
-            </a>
-            <ul>
-                <li><a href="https://craft.moonlett.com/wiki">Wiki</a></li>
-            </ul>
-            <ul>
-                <h3>[Socials]</h3>
-                <li><a href="https://discord.moonlett.com/">Discord</a></li>
-            </ul>
-            <ul>
-                <h3>[Other Links]</h3>
-                <li><a href="https://moonlett.com/">moonlett.com</a></li>
-            </ul>
-            <div class="sidefooter">
-                <p>Created on July 22, 2025</p>
-            </div>
+
+    <header>
+        <div class="hheader" role="header" style="background: #1c1c1c;">
+            <h1>MoonCraft</h1>
         </div>
 
-        <div class="content-box">
-            <div class="content-title">
-                <h1>Welcome to MoonCraft!</h1>
-                <p>Work in progress Minecraft Server (Whitelist Only)</p>
-            </div>
-
-            <div class="content">
-                <h2>[About MoonCraft]</h2>
-                <p>
-                    MoonCraft is a (NEW) Minecraft server.<br>
-                    Theme is space, RP, survival, a mixture of stuff.<br>
-                    Currently working on the server so it wont be "always" online.<br>
-                </p>
-
-                <hr>
-
-                <h2>[Some Features]</h2>
-                <p>
-                    Pyrofishing<br>
-                    McMMO<br>
-                    Tool stats<br>
-                    Player Trading/Auctions<br>
-                    Server Shop<br>
-                </p>
-                <br>
-                <a href="https://craft.moonlett.com/wiki">Wiki</a> for more
-
-                <hr>
-
-                <h2>[How to Join]</h2>
-                <p>
-                    Join my <a href="https://discord.moonlett.com/">Discord</a><br>
-                    <br>
-                <p style="border: 1px solid red;">Disclaimer:<br>
-                    The Server isnt Online at all times,<br>
-                    I can boot it up so you can try it out.
-                </p>
-            </div>
+        <div class="hnav" role="navigation">
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="https://moonlett.com/">Moonlett</a></li>
+                    <li><a href="https://discord.moonlett.com/">Discord</a></li>
+                    <li><a href="https://craft.moonlett.com/">Wiki</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
+
+    <main style="user-select: none; background: none !important;">
+        <img class="homeimg" src="../img/mooncraft.png" alt="MoonCraft">
+        <p style="color: rgb(255, 238, 0); text-align: center; background: none !important;">// Under Construction \\</p>
+
+        <div class="content">
+            <h2>~MoonCraft~</h2>
+            <p>New Minecraft Server Coming uhh... </p>
+        </div>
+    </main>
+
+    <footer>
+        <p style="background: #1c1c1c;">MoonCraft Creation Date: July 22nd 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
